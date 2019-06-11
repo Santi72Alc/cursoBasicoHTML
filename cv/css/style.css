@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+    font-family: juego-tronos;
+    src: url(../fonts/gt.ttf)
+}
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* NAVBAR HEADER */
+
+.navbar {
+    background-color: aqua;
+    width: 100%;
+/*     height: 50px; */
+    position: fixed;
+    top: 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    float: right;
+}
+
+.navbar-item {
+    display: inline-block;
+}
+
+.navbar-item > a {
+    text-decoration: none;
+    color: #222222;
+    padding: 5px;
+}
+
+.navbar-item > a:hover {
+    color: azure;
+    background-color: #222222;
+    zoom: 1.2;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+}
+
+.header-image {
+    height: 100vh;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.header > h1 {
+    position: absolute;
+    top: 30vh;
+    left: 60vw;
+    font-weight: 100;
+}
+
+.header > h1 > span {
+    display: block;
+    font-weight: 700;
+    font-family: juego-tronos;
+}
+
+.header > .tagline {
+    position: absolute;
+    top: 60vh;
+    left: 60vw;;
+}
